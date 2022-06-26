@@ -11,4 +11,3 @@ phases:
 artifacts:
   files:
     - target/cicd-practice.jar
-  discard-paths: yes
