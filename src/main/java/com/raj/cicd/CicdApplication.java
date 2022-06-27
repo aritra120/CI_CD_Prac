@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CicdApplication {
 	
-	@GetMapping("/home")
+	@GetMapping("/")
 	public String getMessage() {
 		return "Welcome to Spring Boot";
 	}
