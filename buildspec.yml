@@ -10,7 +10,7 @@ phases:
       - mvn clean package
   post_build:
     commands:
-      - echo Build completed Successfully...
+      - echo Build completed successfully
 artifacts:
   files:
     - target/cicd-practice.jar
